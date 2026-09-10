@@ -3,4 +3,4 @@ Python简易猜数字游戏
 游戏规则：
 电脑随机生成1-100的数字，玩家不断猜测，程序提示猜大或者猜小，直到猜对，统计一共猜对多少次。
 运行方式：
-Python test1.py
+Python guess_number.py
