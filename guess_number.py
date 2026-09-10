@@ -37,3 +37,4 @@ while True: # 控制玩几局
             if again != "y":
                 print("谢谢游玩，再见！")
                 break # 游戏结束
+            
