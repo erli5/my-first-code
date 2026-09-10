@@ -4,6 +4,11 @@ answer = random.randint(1,100)
 print("====猜数字游戏====")
 print("我想好了一个1到100之间的数字,来猜猜看吧!")
 count = 0 #记录猜的次数
+best =None try:
+    with open("best_score.txt","r")as f:
+        best = int(f.read())
+        except:
+            pass # 第一次运行，文件还不存在，跳过
 while True:
     #获取用户输入
     guess_str = input("请输入你猜的数字:")
