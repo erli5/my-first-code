@@ -1,7 +1,7 @@
 import random
 best = None
 try:
-    with open("best.txt","r") as f:
+    with open("best_score.txt","r") as f:
         best = int(f.read())
 except:
     pass # 文件不存在跳过
